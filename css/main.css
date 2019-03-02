@@ -1294,7 +1294,6 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	/*background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1305,10 +1304,13 @@ header .logo a {
 	display: table;
 	position: relative;
 	text-align: center;
+
 	background-color: rgb(32, 32, 32);
-	background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
-	background-size: 10px 10px, 10px 10px, 10px 5px;
-	background-position: 0px 0px, 5px 5px, 0px 0px;
+  	background-image: linear-gradient(45deg, rgb(215, 114, 6) 20%, transparent 25%, transparent 75%, black 75%, black), 
+  		linear-gradient(45deg, rgb(225, 200, 9) 10%, transparent 15%, transparent 75%, black 75%, black), 
+  		linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
+  	background-size: 10px 10px, 10px 10px, 10px 5px;
+  	background-position: 0px 0px, 5px 5px, 0px 0px;
 }
 .intro-overlay {
 	position: absolute;
@@ -2099,13 +2101,13 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #services {
-	background:
-radial-gradient(black 15%, transparent 16%) 0 0,
-radial-gradient(black 15%, transparent 16%) 8px 8px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-background-color:#282828;
-background-size:16px 16px;
+	background-color: rgb(32, 32, 32);
+  	background-image: linear-gradient(45deg, rgb(215, 114, 6) 20%, transparent 25%, transparent 75%, black 75%, black), 
+  		linear-gradient(45deg, rgb(225, 200, 9) 10%, transparent 15%, transparent 75%, black 75%, black), 
+  		linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
+  	background-size: 10px 10px, 10px 10px, 10px 5px;
+  	background-position: 0px 0px, 5px 5px, 0px 0px;
+
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 	color: white;
