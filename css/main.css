@@ -82,7 +82,7 @@ body {
  * -------------------------------------------------------------------
  */
 a, a:visited {
-	color: #000000;
+	color: #6e6e6e;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -1306,7 +1306,7 @@ header .logo a {
 	background-size: cover;
 	background-attachment: fixed;
 	background-color: rgb(32, 32, 32);
-  	background-image: linear-gradient(45deg, rgb(215, 114, 6) 20%, transparent 25%, transparent 75%, black 75%, black), 
+  	background-image: linear-gradient(45deg, rgb(215, 114, 6) 10%, transparent 25%, transparent 75%, black 75%, black), 
   		linear-gradient(45deg, rgb(225, 200, 9) 10%, transparent 15%, transparent 75%, black 75%, black), 
   		linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
   	background-size: 10px 10px, 10px 10px, 10px 5px;
@@ -2102,7 +2102,7 @@ header .logo a {
  */
 #services {
 	background-color: rgb(32, 32, 32);
-  	background-image: linear-gradient(45deg, rgb(215, 114, 6) 20%, transparent 25%, transparent 75%, black 75%, black), 
+  	background-image: linear-gradient(45deg, rgb(215, 114, 6) 10%, transparent 25%, transparent 75%, black 75%, black), 
   		linear-gradient(45deg, rgb(225, 200, 9) 10%, transparent 15%, transparent 75%, black 75%, black), 
   		linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
   	background-size: 10px 10px, 10px 10px, 10px 5px;
@@ -2504,6 +2504,7 @@ footer {
 	padding-bottom: 3rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
+	margin-top: 10px;
 }
 footer a, footer a:visited {
 	color: #FFFFFF;
